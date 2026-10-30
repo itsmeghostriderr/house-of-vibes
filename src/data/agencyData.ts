@@ -1,4 +1,8 @@
 import { ServiceItem, CaseStudy, TechItem, JobOpening, WorkflowStep, Testimonial } from '../types/index.ts';
+import caseStudyAiFintech from '../assets/images/casestudy_ai_fintech_1793362557759.jpg';
+import caseStudyEnterpriseErp from '../assets/images/casestudy_enterprise_erp_1793362560339.jpg';
+import caseStudyHealthMobile from '../assets/images/casestudy_health_mobile_1793362560308.jpg';
+import heroAgencyImage from '../assets/images/hero_modern_it_agency_1793362557738.jpg';
 
 export const COMPANY_INFO = {
   name: 'House of Vibes',
@@ -212,7 +216,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     ],
     tags: ['AI & ML', 'Predictive Modeling', 'Go', 'React', 'Kafka', 'pgvector'],
     techStack: ['Go', 'Python', 'React 19', 'Kafka', 'PostgreSQL', 'Redis'],
-    imageUrl: '/src/assets/images/casestudy_ai_fintech_1793362557759.jpg',
+    imageUrl: caseStudyAiFintech,
   },
   {
     id: 'omni-erp',
@@ -235,7 +239,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     ],
     tags: ['Enterprise Software', 'Supply Chain', 'Node.js', 'PostgreSQL', 'Kubernetes'],
     techStack: ['TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'Kubernetes', 'Tailwind CSS'],
-    imageUrl: '/src/assets/images/casestudy_enterprise_erp_1793362560339.jpg',
+    imageUrl: caseStudyEnterpriseErp,
   },
   {
     id: 'vitalwatch-mobile',
@@ -258,7 +262,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     ],
     tags: ['Mobile Apps', 'Flutter', 'Healthcare', 'Bluetooth LE', 'HIPAA'],
     techStack: ['Flutter', 'Dart', 'Swift', 'Kotlin', 'Firebase', 'SQLite'],
-    imageUrl: '/src/assets/images/casestudy_health_mobile_1793362560308.jpg',
+    imageUrl: caseStudyHealthMobile,
   },
   {
     id: 'aurora-b2b-saas',
@@ -281,7 +285,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     ],
     tags: ['Web Apps', 'Next.js', 'E-Commerce', 'Edge Computing', 'TypeScript'],
     techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Redis', 'Stripe'],
-    imageUrl: '/src/assets/images/hero_modern_it_agency_1793362557738.jpg',
+    imageUrl: heroAgencyImage,
   },
 ];
 

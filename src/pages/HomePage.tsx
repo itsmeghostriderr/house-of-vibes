@@ -15,6 +15,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import { PageRoute, CaseStudy } from '../types/index.ts';
+import heroImage from '../assets/images/hero_modern_it_agency_1793362557738.jpg';
 import { TechLogo } from '../components/TechLogos.tsx';
 import { FAQSection } from '../components/FAQSection.tsx';
 import { DesignShowcaseSection } from '../components/DesignShowcaseSection.tsx';
@@ -140,7 +141,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-900/80 group">
                 <img
-                  src="/src/assets/images/hero_modern_it_agency_1793362557738.jpg"
+                  src={heroImage}
                   alt="House of Vibes engineering operations center"
                   className="w-full h-[380px] sm:h-[420px] object-cover group-hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"

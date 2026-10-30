@@ -7,6 +7,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { PageRoute } from '../types/index.ts';
+import teamCollaborationImage from '../assets/images/agency_team_collaboration_1793362559977.jpg';
 import { COMPANY_INFO, WORKFLOW_STEPS, CORE_VALUES, STATS } from '../data/agencyData.ts';
 
 interface AboutPageProps {
@@ -73,7 +74,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-950">
               <img
-                src="/src/assets/images/agency_team_collaboration_1793362559977.jpg"
+                src={teamCollaborationImage}
                 alt="House of Vibes engineering team collaboration"
                 className="w-full h-80 sm:h-96 object-cover"
                 referrerPolicy="no-referrer"
